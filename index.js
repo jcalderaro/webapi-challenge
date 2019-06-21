@@ -1,14 +1,20 @@
-/*
-play this: https://www.youtube.com/watch?v=d-diB65scQU
+/* 
 
-Sing along:
+## Minimum Viable Product
 
-here's a little code I wrote, you might want to read it really slow, don't worry be happy
-in every line there may be trouble, but if you worry you make it double, don't worry, be happy
-ain't got no sense of what is REST? just concentrate on learning Express, don't worry, be happy
-your file is getting way too big, bring a Router and make it thin, don't worry, be crafty
-there is no data on that route, just write some code, you'll sort it out… don't worry, just API…
-I need this code, just don't know where, perhaps should make some middleware, don't worry, be happy
+- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. 
+        Make _nodemon_ be a development time dependency only,
+         it shouldn't be deployed to production.
 
-Go code!
+- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+
+Design and build the necessary endpoints to:
+
+- [ ] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` 
+        provided belongs to an existing `project`. If you try to add an action with an 
+        `id` of 3 and there is no project with that `id` the database will return an error.
+
+- [ ] Retrieve the list of actions for a project.
+
 */
+

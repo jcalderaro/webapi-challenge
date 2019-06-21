@@ -103,9 +103,4 @@ We have provided test data for all the resources.
 
 Now that we have a way to add, update, remove and retrieve data from the provided database, it's time to work on the API.
 
-## Stretch Goal
-
-- Use `create-react-app` to create an application in a separate folder (outside the API project folder). Name it anything you want.
-- From the React application show a list of all _projects_ using the API you built.
-- Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
-- Add styling! Perhaps with [`styled-components`](https://www.styled-components.com/).
+####
